@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>‎ </title> <!-- Initial empty title -->
-    <meta property="og:title" content="curs.es" />
-    <meta property="og:description" content="picture perfect" />
+    <meta property="og:title" content="x_x" />
+    <meta property="og:description" content="#youuthful i was like fifteen" />
     <meta property="og:url" content="curs.es">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/s/31977/Minecraftia.woff" as="font" type="font/woff" crossorigin="anonymous"> <!-- Added Minecraftia font -->
-    <link rel="stylesheet" href="ven.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/emojis/1150451394554380319.gif?size=96&quality=lossless">
     <meta name="theme-color" content="#303135">
-    <script disable-devtool-auto="" src='npm/disable-devtool%40latest.js'></script>
     <style>
         @font-face {
             font-family: 'Minecraftia';
@@ -167,7 +166,7 @@
 </head>
 
 <body>
-    <video id="kira1" autoplay loop controls playsinlines>
+    <video id="dork" autoplay loop controls playsinlines>
         <source src="ven.mp4" type="audio/mp3">
     </video>
 
@@ -182,13 +181,12 @@
             </button>
 
             <div class="nav">
-                <a href="index.html">Home</a>
-                <a href="https://discord.gg/heck" target="_blank">Discord</a>
+                <a href="https://discord.gg/malice" target="_blank">Discord</a>
             </div>
         </div>
 
         <div class="container" id="blurBox">
-            <img class="pfp-image" src="ven.png" alt="pfp">
+            <img class="pfp-image" src="ven.jpg" alt="pfp">
             <p class="username">
                 <span class="sparkle">ven</span>
                 <span class="badge">
@@ -196,20 +194,20 @@
                     <span class="badge-tooltip">OG</span> <!-- Tooltip for badge -->
                 </span>
                 <span class="badge">
-                    <img class="badge" src="https://cdn.discordapp.com/emojis/1279958549954302032.webp?size=96&animated=true">
+                    <img class="badge" src="https://cdn.discordapp.com/emojis/1312524925827022988.webp?size=128">
                     <span class="badge-tooltip">Above</span> <!-- Tooltip for badge -->
                 </span>
             </p>
-            <p class="bio-text">x'd out</p>
+            <p class="bio-text">i love my wife</p>
             <div class="socials">
-                <div class="tooltip"><a target="_blank" href="https://instagram.com/xd7192817
+                <div class="tooltip"><a target="_blank" href="https://instagram.com/xd7192821
                     "><span class="tooltiptext">Instagram</span><i class="fa-brands fa-instagram social-icons"></i></a></div>
             </div>
         </div>
     </div>
 
     <script>
-        var audioElement = document.getElementById("kira1");
+        var audioElement = document.getElementById("dork");
         var musicButton = document.getElementById("musicButton");
         var musicIcon = document.getElementById("musicIcon");
         var overlay = document.getElementById("overlay");
@@ -222,7 +220,7 @@
         });
 
         // Set initial volume
-        audioElement.volume = 0.2; // Set the volume to a value between 0 and 1 (e.g., 0.2 for 20% volume)
+        audioElement.volume = 0.5; // Set the volume to a value between 0 and 1 (e.g., 0.2 for 20% volume)
 
         // Function to toggle mute/unmute
         musicButton.addEventListener("click", function() {
@@ -248,7 +246,7 @@
         });
 
         // Typing effect for the page title
-        const titleText = "@ven"; // The title text to type
+        const titleText = "x_X"; // The title text to type
         let titleIndex = 0;
         let isDeleting = false; // Flag to check if we are deleting
 
@@ -257,7 +255,7 @@
                 // Remove one character
                 document.title = titleText.substring(0, titleIndex);
                 titleIndex--;
-                if (titleIndex < 1) { // Stop at '@'
+                if (titleIndex < 1) { // Stop at 'x'
                     isDeleting = false; // Switch to typing mode
                     setTimeout(typeTitle, 500); // Wait before starting to type again
                 } else {
